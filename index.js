@@ -16,7 +16,7 @@ const PORT= process.env.PORT || 8080
 
 app.listen(PORT,async()=>{
     await connection
-    console.log("connected to db")
+    console.log("connected to db ")
     console.log("Port running on http://localhost:8080")
     
 })
